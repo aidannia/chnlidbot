@@ -24,7 +24,7 @@ $from_id = $message->from->id;
 $message_id = $message->message_id;
 $text = $message->text;
 $indusbots = $message->forward_from_chat->id;
-$BOT_TOKEN = $HEROKU['BOT_TOKEN'];
+$BOT_TOKEN = $HEROKU['1716899137:AAGqU_k-Vmzh48oDh2Z-kDoihhwVDiBL-kQ'];
 //////////////////BENCHAMXD////////////////////////////BENCHAMXD///////BENCHAMXD///////////BENCHAMXD////////
 if($text == "/start"){
  bot('sendMessage',[
